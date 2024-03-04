@@ -1,3 +1,7 @@
+@font-face {
+    font-family: 'Cascadia Code';
+    src: url('https://fonts.cdnfonts.com/css/cascadia-code') format('truetype');
+}
 *{
     box-sizing: border-box;
     font-family: Verdana;
@@ -6,6 +10,7 @@
     text-decoration: none;
     
 }
+
 body > header {
     display: flex;
     flex-direction: row;
@@ -24,4 +29,19 @@ header > nav > ul {
 #pnav > li > a{    
     width: 75px;
     padding: 10px;
+}
+main {
+    padding: 30px;
+}
+#lang{
+    list-style-type: "\1F3AF";
+    letter-spacing: 1px;
+    font-family: 'Cascadia Code' !important;
+}
+#concepts{
+    margin-left: 45px;
+    list-style-type: "\1F4A1";
+}
+#add{
+    list-style-type: "\1F4BB";
 }
