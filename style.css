@@ -1,1 +1,5 @@
-h1 + h2 : {color: gray; style: italic; font-size: 1.5em; }
+h1 + h3 {
+    color: gray;
+    font-style: italic; 
+    font-size: 1em; 
+}
