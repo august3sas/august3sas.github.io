@@ -40,8 +40,10 @@ main {
 }
 #concepts{
     margin-left: 45px;
+    letter-spacing: 1px;
     list-style-type: "\1F4A1";
 }
 #add{
+    letter-spacing: 1px;
     list-style-type: "\1F4BB";
 }
