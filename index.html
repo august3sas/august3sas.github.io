@@ -24,11 +24,13 @@
 
     <body>
         <header>
-            <h1>Jakub Brambor</h1>
+            <h1><a id="home"></a>Jakub Brambor</h1>
             <nav>
                 <ul id="pnav">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Projects</a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
                     <li><a href="resources/files/CV_JakubBrambor.pdf"><img src="resources/icons/pdficon.png" width="24" height="24">See my resume!</a></li>
                 </ul>
             </nav>
@@ -36,14 +38,18 @@
         </header>
         <main>
             <span>
-                <h3>About me</h3>
+                <a id="about"></a>
+                <h3>🧠About me</h3>
                 <p>
                     I am a 3rd year student of Computer Science at Poznań University of Technology. <br>
                     I truly aspire in becoming a data scientist, a database manager or a software developer.<br> 
-                    Over the past years I have gained valuable skills which are listed below and in my <a href="resources/files/CV_JakubBrambor.pdf">resume</a>.<br>
+                    Over the past years I have gained valuable <a href="#skills">skills</a> which are listed below and in my <a href="resources/files/CV_JakubBrambor.pdf">resume</a>.<br>
+                    Furthermore, I have proved myself in plethora of <a href="#projects">projects</a>, some of which I have disclosed below.<br>
                 </p>
-
-                <h3>Skills</h3>
+            </span>
+            <span>
+                <a id="skills"></a>
+                <h3>💪🏻Skills</h3>
                 <ul id="lang">
                     <li>SQL, PL/SQL </li>
                     <li>Python including data science libraries</li>
@@ -51,6 +57,10 @@
                     <li>C++</li>
                     <li>R</li>
                     <li>Kotlin</li>
+                    <li>PDDL</li>
+                    <li id="en">English C1</li>
+                    <li id="fr">French B1</li>
+                    <li id="pl">Polish Native</li>
                 </ul>
                 <ul id="concepts">
                     <li>Machine Learning and Artificial Intelligence</li>
@@ -60,6 +70,8 @@
                     <li>Open Source Intelligence techniques</li>
                     <li>Data visualization</li>
                     <li>SQL optimisation</li>
+                    <li>3D Graphics</li>
+                    <li>Automatic planning</li>
                 </ul>
                 <ul id="add">
                     <li>Oracle Database</li>
@@ -70,6 +82,12 @@
                     <li>Jetbrains</li>
                     <li>Visual Studio Code</li>
                 </ul>
+            </span>
+            <span>
+                <h3>
+                    <a id="projects"></a>
+                    ⚙️Projects
+                </h3>
             </span>
 
         </main>
@@ -88,5 +106,6 @@
             integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
             crossorigin="anonymous"
         ></script>
+        
     </body>
 </html>

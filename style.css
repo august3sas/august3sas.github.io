@@ -17,14 +17,14 @@ body > header {
     padding: 30px;
     font-weight: bold;
     justify-content: space-between;
-    width: 800px;
+    width: 900px;
 }
 header > nav > ul {
     display: flex;
     justify-content: flex-start;
     list-style: none;
     padding: 0;
-    width: 400px;
+    width: 500px;
 }
 #pnav > li > a{    
     width: 75px;
@@ -33,7 +33,7 @@ header > nav > ul {
 main {
     padding: 30px;
 }
-#lang{
+#lang > li{
     list-style-type: "\1F3AF";
     letter-spacing: 1px;
     font-family: 'Cascadia Code' !important;
@@ -42,8 +42,10 @@ main {
     margin-left: 45px;
     letter-spacing: 1px;
     list-style-type: "\1F4A1";
+    font-family: 'Cascadia Code' !important;
 }
 #add{
     letter-spacing: 1px;
     list-style-type: "\1F4BB";
+    font-family: 'Cascadia Code' !important;
 }
