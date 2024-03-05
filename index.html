@@ -19,22 +19,25 @@
         />
         <link rel="stylesheet" type="text/css" href="style.css" title="CSS stylesheet">
         <link href="https://fonts.cdnfonts.com/css/cascadia-code" rel="stylesheet">
+        <script src="scroll.js"></script>
 
     </head>
 
     <body>
         <header>
-            <h1><a id="home"></a>Jakub Brambor</h1>
-            <nav>
-                <ul id="pnav">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                    <li><a href="resources/files/CV_JakubBrambor.pdf"><img src="resources/icons/pdficon.png" width="24" height="24">See my resume!</a></li>
-                </ul>
-            </nav>
+            <div class="sticky" id="scrollHeader">
+                <h1><a id="home"></a>Jakub Brambor</h1>
+                <nav>
+                    <ul id="pnav">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="resources/files/CV_JakubBrambor.pdf"><img src="resources/icons/pdficon.png" width="24" height="24">See my resume!</a></li>
+                    </ul>
+                </nav>
+            </div>
 
         </header>
         <main>
@@ -112,11 +115,17 @@
                     </p>
                 </span>
                 <span>
-                    <a href="todo"><h4>Statistical Analysis of Public Transport Punctuality in Poznań (Polish)</h4></a>
+                    <a href="https://github.com/august3sas/punctuality_test_poznan/blob/main/Badanie_punktualno%C5%9Bci_transportu_miejskiego_w_Poznaniu.ipynb"><h4>Statistical Analysis of Public Transport Punctuality in Poznań (Polish)</h4></a>
                     <p id="tech">Technologies used: R, Jupyter Notebook, Data analysis, Data visualization, Statistics, Machine Learning</p>
                     <p id="desc">A personal project I worked on, in which I analysed the punctuality of public transport in Poznań. 
                         It allowed me to gain experience in R, Jupyter Notebook, Data analysis and Data visualization. It allowed me to grasp 
                     the basics of Machine Learning </p>
+                    <p><a href="https://github.com/august3sas/punctuality_data_ZTM">Additional repository in Python for data visualization and data processing working on data from project above (numpy, pandas, matplotlib)</a></p>
+                    <p id="tech">Technologies used: Python, Data visualization, Data analysis, Pandas, Numpy, Matplotlib</p>
+                </span>
+                <span>
+                    <a href="#todo"><h4>Tetris 3D</h4></a>
+                    <p id="tech">Technologies used: C++, OpenGL, 3D Graphics, Object Oriented Programming</p>
                 </span>
             </span>
             <span>

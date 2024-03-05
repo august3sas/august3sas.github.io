@@ -10,10 +10,22 @@
     text-decoration: none;
     
 }
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.sticky + *{
+    padding-top: 100px;
+}
 main > span{
+    margin-top: 100px;
     padding: 15px;
 }
-body > header {
+header {
+    background-color: white;
+}
+body > header > div{
     display: flex;
     flex-direction: row;
     padding: 30px;
@@ -21,7 +33,7 @@ body > header {
     justify-content: space-between;
     width: 1000px;
 }
-header > nav > ul {
+header > div > nav > ul {
     display: flex;
     justify-content: flex-start;
     list-style: none;
