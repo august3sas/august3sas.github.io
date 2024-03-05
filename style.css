@@ -10,21 +10,23 @@
     text-decoration: none;
     
 }
-
+main > span{
+    padding: 15px;
+}
 body > header {
     display: flex;
     flex-direction: row;
     padding: 30px;
     font-weight: bold;
     justify-content: space-between;
-    width: 900px;
+    width: 1000px;
 }
 header > nav > ul {
     display: flex;
     justify-content: flex-start;
     list-style: none;
     padding: 0;
-    width: 500px;
+    width: 600px;
 }
 #pnav > li > a{    
     width: 75px;
@@ -38,14 +40,26 @@ main {
     letter-spacing: 1px;
     font-family: 'Cascadia Code' !important;
 }
-#concepts{
+#concepts > li {
     margin-left: 45px;
     letter-spacing: 1px;
     list-style-type: "\1F4A1";
     font-family: 'Cascadia Code' !important;
 }
-#add{
+#add > li {
     letter-spacing: 1px;
     list-style-type: "\1F4BB";
     font-family: 'Cascadia Code' !important;
+}
+#projects_span > span{
+    padding: 30px;
+    margin-left: 45px;
+}
+#tech {
+    font-style: italic !important;
+    font-size: 12px !important;
+    color: lightgray !important;
+}
+#desc {
+    margin-left: 30px;
 }
