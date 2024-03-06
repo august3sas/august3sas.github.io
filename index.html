@@ -19,8 +19,8 @@
         />
         <link rel="stylesheet" type="text/css" href="style.css" title="CSS stylesheet">
         <link href="https://fonts.cdnfonts.com/css/cascadia-code" rel="stylesheet">
-        <script src="scroll.js"></script>
-
+        <script src="scripts/scroll.js"></script>
+        <script src="scripts/adjust_redirect.js"></script>
     </head>
 
     <body>
@@ -41,7 +41,7 @@
 
         </header>
         <main>
-            <span>
+            <span id="ab1">
                 <a id="about"></a>
                 <h3>🧠About me</h3>
                 <p>
@@ -91,15 +91,20 @@
                     <li>Jetbrains</li>
                     <li>Visual Studio Code</li>
                     <li>Postman</li>
+                    <li>JUnit</li>
                 </ul>
             </span>
             <span id="projects_span">
+                <a id="projects"></a>
                 <h3>
-                    <a id="projects"></a>
                     ⚙️Projects
                 </h3>
-                Over time I have worked on several projects by myself, or as a contributor.<br>
-                Upon clicking on each, you will be redirected to a public github repository.<br>
+                <p id="section_desc">
+                    Over time I have worked on several projects by myself, or as a contributor. <br>
+                    Upon clicking on each, you will be redirected to a public github repository.<br>
+                    In those projects I have gained true experience of working in a team or alone,<br>
+                    and they have reinforced preexisting and taught me new skills.
+                </p>
                 <span>
                     <a href="todo"><h4>Scenario Quality Checker API</h4></a>
                     <p id="tech">Technologies used: Spring Boot, Java, OOP, Maven, Git, Postman, Project planning, Scrum, UML, Design patterns, CI/CD</p>
@@ -109,7 +114,7 @@
                 </span>
                 <span>
                     <a href="https://github.com/august3sas/apex-dnd-database-project"><h4>Dungeons and Dragons Manager Application</h4></a>
-                    <p id="tech">Technologies used: Oracle Apex, SQL, PL/SQL, Oracle Database, SQL optimisation, Data visualization, Project planning</p>
+                    <p id="tech">Technologies used: Oracle Apex, SQL, PL/SQL, Oracle Database, SQL optimisation, Data visualization, Project planning, Entity and relation diagrams</p>
                     <p id="desc">Oracle Apex application for Dungeons and Dragons 'Dungeon Masters' in which I collaborated on. It reinforced my skills
                     in SQL and PL/SQL, and allowed me to learn Oracle Apex. Furthermore, I got to delve into Database Management Systems.</p>
                     </p>
@@ -126,13 +131,26 @@
                 <span>
                     <a href="#todo"><h4>Tetris 3D</h4></a>
                     <p id="tech">Technologies used: C++, OpenGL, 3D Graphics, Object Oriented Programming</p>
+                    <p id="desc">A collaborated project I worked on, in which I created a 3D version of the classic game Tetris. 
+                        It allowed me to gain further expertise in C++, OpenGL and 3D Graphics. It allowed me to grasp the foundations of 3D graphics and game development.</p>
+                </span>
+                <span>
+                    <a href="https://github.com/august3sas/pddl_impreza_w_hobbitonie"><h4>Rush Hour problem (polish)</h4></a>
+                    <p id="tech">Technologies used: PDDL, Automatic Planning</p>
+                    <p id="desc">Project I worked on by myself, that allowed me to deeply explore the subject of automatic planning. Inspired by childhood game, Rush Hour, it allowed me to look differently on this game's problem.</p>
+                </span>
+                <span>
+                    <a href="https://github.com/august3sas/august3sas.github.io"><h4>This page (repository)</h4></a>
+                    <p id="tech">Technologies used: HTML, CSS, JS</p>
+                    <p id="desc">A personal project that serves as a portfolio.</p>
                 </span>
             </span>
             <span>
+                <a id="contact"></a>
                 <h3>
-                    <a id="contact"></a>
                     Contact
                 </h3>
+                <p>Contact me via email or a phone call. </p>
             </span>
 
         </main>

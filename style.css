@@ -1,78 +1,109 @@
+
 @font-face {
     font-family: 'Cascadia Code';
     src: url('https://fonts.cdnfonts.com/css/cascadia-code') format('truetype');
 }
-*{
+
+* {
     box-sizing: border-box;
     font-family: Verdana;
     font-size: 16px;
     font-weight: normal;
     text-decoration: none;
-    
 }
-.sticky{
+
+.sticky {
     position: fixed;
     top: 0;
     width: 100%;
+    height: 10%; 
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0)); /* Gradient for the bottom 50% */
+    background-repeat: no-repeat;
 }
-.sticky + *{
+
+.sticky + * {
     padding-top: 100px;
 }
-main > span{
-    margin-top: 100px;
-    padding: 15px;
+
+a[href^="#"]{
+    onclick:"scrollToAnchor(event)";
 }
-header {
-    background-color: white;
+
+#ab1 {
+    padding: 100px;
 }
-body > header > div{
+
+
+#scrollheader {
+    background-color: red;
+}
+
+
+body > header > div {
     display: flex;
     flex-direction: row;
     padding: 30px;
     font-weight: bold;
     justify-content: space-between;
-    width: 1000px;
+    width: 66%;
 }
+
+
 header > div > nav > ul {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     list-style: none;
     padding: 0;
-    width: 600px;
+    width: 100%;
 }
-#pnav > li > a{    
+
+#pnav > li > a {
     width: 75px;
     padding: 10px;
 }
+
+
 main {
-    padding: 30px;
+    padding: 130px 30px 30px;
 }
-#lang > li{
-    list-style-type: "\1F3AF";
-    letter-spacing: 1px;
-    font-family: 'Cascadia Code' !important;
-}
-#concepts > li {
-    margin-left: 45px;
-    letter-spacing: 1px;
-    list-style-type: "\1F4A1";
-    font-family: 'Cascadia Code' !important;
-}
+
+
+#lang > li,
+#concepts > li,
 #add > li {
     letter-spacing: 1px;
-    list-style-type: "\1F4BB";
     font-family: 'Cascadia Code' !important;
 }
-#projects_span > span{
+
+#lang > li {
+    list-style-type: "\1F3AF";
+}
+
+#concepts > li {
+    margin-left: 45px;
+    list-style-type: "\1F4A1";
+}
+
+#add > li {
+    list-style-type: "\1F4BB";
+}
+
+
+#projects_span > span {
     padding: 30px;
     margin-left: 45px;
 }
+
 #tech {
     font-style: italic !important;
     font-size: 12px !important;
     color: lightgray !important;
 }
+
 #desc {
     margin-left: 30px;
     width: 600px;
+}
+#section_desc{
+    width: 700px;
 }
